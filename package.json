@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/sdtet24/",
+    "build": "vite build",
+    "build:local": "vite build --base=/",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "npm run build:local && vite preview"
   },
   "dependencies": {
     "animate.css": "^4.1.1",

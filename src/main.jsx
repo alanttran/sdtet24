@@ -7,13 +7,16 @@ import enigmatic from "./assets/images/enigmatic.png";
 import ricecake from "./assets/images/ricecake.png";
 import yots from "./assets/images/yots.png";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    errorElement: <div>error</div>,
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      errorElement: <div>error</div>,
+    },
+  ],
+  { basename: import.meta.env.DEV ? "/" : "/sdtet24/" }
+);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
