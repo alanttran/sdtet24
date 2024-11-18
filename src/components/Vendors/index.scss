@@ -1,0 +1,392 @@
+.vendors-header-section {
+    text-align: center;
+    margin-bottom: 5vh;
+    margin-top: -2vh;
+}
+
+.join-container {
+    margin-top: 26vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.vendors {
+    margin-top: -30vh;
+    color: #FEFAE6;
+}
+.h1-font {
+    font-size: 36pt;
+}
+.h2-font {
+    font-size: 24pt;
+}
+
+.h1-font span {
+    color: #D2512F;
+}
+
+.experience {
+    margin-top: -2vh;
+}
+
+.experience1 {
+    margin-top: -4vh;
+}
+
+.experience2 {
+    padding-bottom: 4vh;
+}
+
+.vendor-btn {
+    margin-top: 6vh;
+    margin-left: 4vw;
+    margin-bottom: 2vh;
+    padding: 0.8em 1.5em;
+    
+    border-radius: 25pt;
+    font-family: 'Grotesque Black';
+    font-size: 22pt;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1px;
+    background-color: #D2512F;
+}
+
+.vendor-btn:hover {
+    border: 1px solid #D2512F;
+    background-color: transparent;
+    color: #D2512F;
+} 
+
+.join-vendor {
+    margin-top: 7vh;
+    
+}
+
+.activities-section {
+    background-color: #FBC33C;
+    padding-top: 4vh;
+}
+
+.vendor-header {
+    text-align: center;
+    
+}
+
+.activity-container {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.activity-card{
+    width: 25%;
+    text-align: center;
+}
+
+
+.activity-header {
+    text-align: center;
+    color: #260703;
+    text-wrap: wrap;
+    justify-self: center;
+    width: 80%;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+
+
+
+
+.vendor-map-section {
+    padding-top: 5vh;
+    padding-bottom: 7vh;
+}
+
+.vendormap-container {
+    text-align: center;
+}
+
+.vendormap {
+    max-width: 100%;
+    height: auto;
+    padding: 2vh 4vw;
+}
+
+.vendor-list-section {
+    text-align: center;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+    background-color: #FBC33C;
+    display:none;
+}
+
+.vendorlist {
+    width:50%;
+}
+
+
+@media screen and (min-width: 2040px){
+    .vendorheader {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .activity-card {
+        padding: 0vh 1.5vw;
+    }
+    .h1-font {
+        font-size: 36pt;
+    }
+    .h2-font {
+        font-size: 24pt;
+    }
+}
+
+@media screen and (max-width: 1536px) {
+    .h1-font {
+        font-size: 32pt;
+    }
+    .h2-font {
+        font-size: 20pt;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    .activity-card {
+        padding: 0vh 2.5vw;
+    }
+    .h1-font {
+        font-size: 32pt;
+    }
+    .h2-font {
+        font-size: 20pt;
+    }
+    .vendormap {
+        max-width: 100%;
+        height: auto;
+    }
+        
+
+}
+
+@media screen and (max-width: 1367px) {
+    .h1-font {
+        font-size: 32pt;
+    }
+    .h2-font {
+        font-size: 20pt;
+    }
+    .join-container {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .vendor-header-container{
+        margin-top: -30vh;
+    }
+}
+@media screen and (max-width: 1281px) {
+    .activity-card {
+        padding: 0vh 2vw;
+    }
+    .activity-container {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .activity-header {
+        font-size: 22pt;
+    }
+    .activity1-img {
+        max-width: 100%;
+        height:auto;
+    }
+    .activity2-img {
+        max-width: 100%;
+        height:auto;
+    }
+    .activity3-img {
+        max-width: 100%;
+        height:auto;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .join-container {
+        margin-top: 20vh;
+    }
+    .h1-font {
+        font-size: 28pt;
+    }
+    .h2-font {
+        font-size: 18pt;
+    }
+    .activity-card {
+        padding: 0vh 2vw;
+    }
+    .vendor-btn{
+        font-size: 20pt;
+    }
+    .activity1-img {
+        max-width: 280px;
+        height:auto;
+    }
+    .activity2-img {
+        max-width: 280px;
+        height:auto;
+    }
+    .activity3-img {
+        max-width: 280px;
+        height:auto;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    .join-container {
+        flex-direction: column;
+        text-align: center;
+        width: 100vw;
+        margin-top: 24vh;
+    }
+    .h1-font {
+        font-size: 28pt;
+    }
+    .h2-font {
+        font-size: 18pt;
+    }
+    .vendor-btn {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 20vw;
+        margin-top: 1vh;
+    }
+    .activity-img {
+        max-width: 100%;
+        height:auto;
+    }
+}
+
+@media screen and (max-width: 602px) {
+    .vendorheader {
+        height: 300px; 
+        width: auto;
+    }
+    .h1-font {
+        font-size: 24pt;
+    }
+    .activity-header {
+        font-size: 14pt;
+    }
+    .vendor-header-container {
+        margin-top: 10vh;
+    }
+    .join-container {
+        margin-top: 14vh;
+    }
+    .vendor-btn {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 20vw;
+        margin-top: 1vh;
+        font-size: 16pt;
+    }
+    .activity-img {
+        max-width: 100%;
+        height:auto;
+    }
+
+}
+
+@media screen and (max-width: 415px) {
+    .join-vendor {
+        padding: 0vh 5vw;
+    }
+    .h1-font {
+        font-size: 18pt;
+    }
+    .vendor-btn {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 40vw;
+        margin-top: 1vh;
+        font-size: 14pt;
+        text-wrap: nowrap;
+    }
+    .activity-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .activity-card {
+        width: 100vw;
+        padding-left: 0vw;
+    }
+    .activity-img {
+        max-width: 75%;
+        height:auto;
+        
+    }
+    .activity-header {
+        font-size: 16pt;
+    }
+}
+
+@media screen and (max-width: 394px) {
+    .join-vendor {
+        padding: 0vh 5vw;
+        font-size: 20pt;
+    }
+    .vendor-btn {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 40vw;
+        margin-top: 1vh;
+        font-size: 14pt;
+        text-wrap: nowrap;
+    }
+    .activity-card {
+        width: 100vw;
+    }
+    .activity-img {
+        max-width: 75%;
+        height:auto;
+        
+    }
+    .vendor-header {
+        font-size: 24pt;
+    }
+    .activity-header {
+        font-size: 16pt;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .join-vendor {
+        padding: 0vh 5vw;
+        font-size: 20pt;
+    }
+    .vendor-btn {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 40vw;
+        margin-top: 1vh;
+        font-size: 14pt;
+        text-wrap: nowrap;
+    }
+    .activity-card {
+        width: 100vw;
+    }
+    .activity-img {
+        max-width: 75%;
+        height:auto;
+        
+    }
+    .vendor-header {
+        font-size: 24pt;
+    }
+    .activity-header {
+        font-size: 16pt;
+    }
+}
