@@ -124,11 +124,11 @@ const Home = () => {
         </video>
       </div>
       <div className="header-container">
-        <img
-          src={header}
-          alt="SAN DIEGO TET FESTIVAL"
-          className="sdtet-header"
-        ></img>
+        <div className="banner-title">
+          San Diego
+          <br />
+          Tết Festival
+        </div>
         <h1 className="header-info">
           FREE ADMISSION: JANUARY 31 - FEBRUARY 2, 2025
         </h1>

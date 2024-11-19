@@ -8,16 +8,26 @@
     pointer-events: none;
 }
 
+.banner-title{
+    font-size: 80px;
+    color: #FEFAE6;
+    font-family: 'Mogi';
+    text-shadow: 1px 1px black;
+    text-transform: uppercase;
+}
+
 .header-container {
     margin:-34em 0em 0em 0em;
     z-index: 2;
     text-align:center;
+    
 }
 .header-info{
     font-size: 24pt;
     color: #FEFAE6;
     font-family: 'Instrument Sans';
     padding-top: 1em;
+    text-shadow: 1px 1px black;
 }
 .header-info2{
     font-size: 12pt;
