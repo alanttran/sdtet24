@@ -7,7 +7,6 @@ import cookieleftr from "../../assets/images/cookieleftr.png";
 import cookierightr from "../../assets/images/cookierightr.png";
 import trina from "../../assets/images/trina.png";
 import luubich from "../../assets/images/luubich.jpg";
-import huyen from "../../assets/images/huyen.png";
 import dragonimg from "../../assets/images/dragonimg.png";
 import dragonimgr from "../../assets/images/dragonimgr.png";
 import flower from "../../assets/images/flower.png";
