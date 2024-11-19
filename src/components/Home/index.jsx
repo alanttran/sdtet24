@@ -1,6 +1,4 @@
 import "./index.scss";
-import video from "../../assets/images/sdtet_homevideo.mp4";
-import header from "../../assets/images/sdtetheader.png";
 import darrow from "../../assets/images/darrow.png";
 import lantern from "../../assets/images/lantern.png";
 import enigmatic from "../../assets/images/enigmatic.png";
@@ -119,7 +117,10 @@ const Home = () => {
           loop
           className="homevideo"
         >
-          <source src={video} type="video/mp4"></source>
+          <source
+            src="https://sdtet.s3.us-west-1.amazonaws.com/video/sdtet_homevideo.mp4"
+            type="video/mp4"
+          ></source>
           Your browser does not support the video tag.
         </video>
       </div>
