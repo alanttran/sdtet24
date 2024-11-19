@@ -157,48 +157,6 @@ const Entertainment = () => {
                 <div className="headline-left-card2"></div>
               </div>
             </div>
-            <div className="huyen-card headline-card">
-              <div className="headline-left-card2">
-                <img src={huyen} className="justin"></img>
-              </div>
-              <div className="headline-left-card-content-container">
-                <div className="headline-left-card1">
-                  <h1 className="headline-card-header">
-                    M&Yacute;
-                    HUY&Ecirc;N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  </h1>
-                  <div className="headline-left-info-container">
-                    <div className="headline-left-date-container">
-                      <h1 className="feb">FEB</h1>
-                      <h1 className="seventeen">18</h1>
-                      <h1 className="twenty">2024</h1>
-                    </div>
-                    <div className="headline-left-time-container">
-                      <div className="performing-container headline-performance-container">
-                        <h2 className="performing">PERFORMING AT</h2>
-                      </div>
-                      <div className="time-and-container">
-                        <h2 className="and">&</h2>
-                        <div className="performance-time-container">
-                          <h2 className="performance-time-h2">2:30 PM</h2>
-                          <h2 className="performance-time-h2">4:30 PM</h2>
-                        </div>
-                      </div>
-                      <div className="zodiac-container headline-performance-container">
-                        <h2 className="zodiac">ZODIAC: RABBIT</h2>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="cookie-img-container">
-                  <img
-                    src={cookieright}
-                    className="cookieright cookieright-huyen"
-                  ></img>
-                  <img src={cookierightr} className="cookierightr"></img>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
